@@ -1,9 +1,9 @@
-<script setup>
-import TheWelcome from "../components/TheWelcome.vue";
-</script>
-
 <template>
   <main>
-    <TheWelcome />
+    <PageHome />
   </main>
 </template>
+
+<script setup>
+import PageHome from "@/components/PageHome.vue";
+</script>
